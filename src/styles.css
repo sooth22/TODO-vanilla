@@ -1,0 +1,114 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+body {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.input-area {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #eee;
+}
+.incomplete-area {
+  padding: 20px 20px 10px;
+  margin-bottom: 10px;
+  background-color: lightcyan;
+}
+.incomplete-area__title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.complete-area {
+  padding: 20px 20px 10px;
+  background-color: linen;
+}
+.complete-area__title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.todo-item p,
+.todo-item button {
+  margin-right: 5px;
+}
